@@ -1,0 +1,42 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+calendar {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px 0;
+}
+
+.month {
+	flex-basis: calc(100% / 3 - 20px);
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.month h2 {
+	background-color: #007bff;
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+}
+
+.month table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.month td {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: center;
+}
+
+.month .weekday {
+	background-color: #ddd;
+	font-weight: bold;
+}
